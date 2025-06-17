@@ -17,7 +17,6 @@ export class CreatePersonDto {
     description: 'Gender of the person',
     enum: ['male', 'female', 'other'] ,
   })
-  @IsString()
   gender: 'male' | 'female' | 'other';
 
   companyId: string;
